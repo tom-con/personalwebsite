@@ -1,0 +1,365 @@
+/* ================
+      DOPE RESET
+   ================ */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* =====================
+      CUSTOM STYLES
+   ===================== */
+
+body {
+    background: #ffebdc;
+    color: #000;
+    font: 300 16px/22px "Titillium Web", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* =====================
+           GRID
+   ===================== */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* ====================
+       CLEARFIX
+   ==================== */
+
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+
+/* ====================
+       TYPOGRAPHY
+   ==================== */
+
+h1 {
+    margin-bottom: 1px;
+}
+
+h3, h4, h5, p {
+    margin-bottom: 22px;
+}
+
+h1, h2, h3, h4 {
+    color: #124440;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    color: #9e7651;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+strong {
+    font-weight: 600;
+}
+
+cite, em {
+    font-style: italic;
+}
+
+
+/* ====================
+          LINKS
+   ==================== */
+
+a {
+    text-decoration: none;
+    color: #8da0a3;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #133e44;
+}
+
+
+/* =====================
+           GRID
+   ===================== */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container, .grid {
+    margin: 0 auto;
+    width: 960px;
+    padding: 0 30px 0 30px;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* =====================
+          HEADER
+   ===================== */
+
+.flavor-bar {
+    height: 20px;
+    width: 100%;
+    background: #124440;
+}
+
+.primary-header {
+    text-align: center;
+    background: -webkit-linear-gradient(#335b61, #ffebdc);
+    background: -moz-linear-gradient(#335b61, #ffebdc);
+    background: linear-gradient(#335b61, #ffebdc);
+    margin-bottom: 40px;
+}
+
+.primary-header h3 {
+    float: left;
+    margin-bottom: 0;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 17.5%;
+}
+
+header img {
+    margin-top: 50px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.logo {
+    padding: 10px 0 0 0;
+    text-transform: uppercase;
+}
+
+.below {
+    padding: 0 0 20px;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2.5px;
+    color: #335b61;
+}
+
+
+/* =====================
+         NAVIGATION
+   ===================== */
+
+.nav li {
+    display: inline-block;
+    margin: 0 10px 44px;
+    vertical-align: top;
+}
+
+
+/* =====================
+          SCROLL - For home page, sets up a blog-like scroll
+   ===================== */
+
+.scroll {
+    width: 65%;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.scroll h2, .scroll p {
+    display: inline-block;
+}
+
+.scroll h2 {
+    line-height: 22px;
+    padding: 0 3px 0 3px;
+    background-color: #e7eaeb;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.scroll a {
+    text-transform: none;
+    color: #9e7251;
+    font-weight: 400;
+}
+
+.scroll a:hover {
+    border-bottom: 1px solid #bbb;
+}
+
+.scroll .flavor-bar {
+    height: 3px;
+}
+
+.scroll img {
+    height: 200px;
+    margin: 15px 15px 15px 15px;
+}
+
+
+/* =====================
+       SCROLL PARTS
+   ===================== */
+
+.left-b {
+    border-left: 2px solid #6f411d;
+}
+
+.left-b h2, .right-b img {
+    float: left;
+}
+
+.right-b {
+    border-right: 2px solid #6f411d;
+}
+
+.right-b h2, .left-b img {
+    float: right;
+}
+
+
+/* =====================
+          ARTICLE - For the FUTURE page, sets up article style page
+   ===================== */
+
+.artc {
+  padding-bottom: 40px;
+}
+
+.artc img {
+  height: 300px;
+  padding: 0 20px 0 20px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.article-1-3 {
+    width: 33.33%;
+    display: inline-block;
+}
+
+.article-2-3 {
+    width: 66.66%;
+    display: inline-block;
+}
+
+.artc h2 {
+    line-height: 22px;
+    padding: 0 3px 0 3px;
+    vertical-align: top;
+}
+
+.artc h4 {
+    font-weight: 100;
+    font-size: 16px;
+    font-style: italic;
+    color: #8da0a3;
+    text-align: right;
+}
+
+.artc p {
+font-weight: 300;
+font-size: 16px;
+padding: 0 10px 0 10px;
+text-align: justify;
+}
+
+
+/* =====================
+          FOOTER
+   ===================== */
+
+.footer {
+    padding-top: 20px;
+    text-align: right;
+    background-color: #124440;
+    width: 100%;
+}
+
+small {
+    color: #e7eaeb;
+    padding-right: 10px;
+}
